@@ -12,7 +12,6 @@ class GamesController extends Controller
     {
         $this->game_list = require __DIR__ . '/../../../database/datasource.php';
     }
-
     /**
      * Display a listing of the resource.
      */
